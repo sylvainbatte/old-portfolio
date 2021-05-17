@@ -1,0 +1,15 @@
+html {
+
+    font-family: 'KoHo', sans-serif;
+}
+
+.information {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.information p {
+    padding-left: 10px;
+}
