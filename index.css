@@ -1,3 +1,8 @@
-#identité {
+#photo_identité {
     width: 130px;
+}
+
+#profil {
+    margin: 200px 0px;
+    background-color: red;
 }

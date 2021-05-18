@@ -1,7 +1,60 @@
 html {
 
     font-family: 'KoHo', sans-serif;
+    background: linear-gradient(180deg, #555FBB, #15182F);
 }
+
+/* ------ NAV BAR ------ */
+nav {
+    background-color: #E9EBF6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 60%;
+    border-radius: 10em;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 5px 0;
+    padding-left: 7px;
+    padding-right: 88px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 11px;
+    font-size: 22px;
+    color: #15182F;
+    /*font-weight: bold; */
+    display: block;
+    width: 200%;
+    height: 45px;
+    border-radius: 10em;
+}
+
+nav ul li a:hover {
+    background-color: #575a6b;
+    color: #d7d9ec;
+    overflow: hidden;
+    transition: 0.2s ease-in;
+}
+
+
+
+.actual{
+    background-color: #3A3C48;
+    color: #E9EBF6;
+}
+/* --------------------- */
 
 .information {
 
@@ -12,4 +65,9 @@ html {
 
 .information p {
     padding-left: 10px;
+}
+
+.zone {
+
+    height: 5000px;
 }

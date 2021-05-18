@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio Sylvain BATTE</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="/style.css" rel="stylesheet" type="text/css">
     <link href="index.css" rel="stylesheet" type="text/css">
     <link href="/assets/images/favicon.ico" rel="icon">
     <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
@@ -14,13 +14,20 @@
 
 <body>
 
+    
     <!-- {COMMUN} Barre de navigation -->
     <nav>
         <ul>
-            <li><a href="/index.html">Accueil</a></li>
+            <li><a href="/index.html" class="actual">Accueil</a></li>
             <li><a href="/a_propos/a_propos.html">A propos</a></li>
             <li>
                 <a href="/projets/projets.html">Projets</a>
+                <div class="dropdown">
+                    <!-- Liste de tout les projets avec des <a></a> -->
+                </div>
+            </li>
+            <li>
+                <a href="/activites/activites.html">Activités</a>
                 <div class="dropdown">
                     <!-- Liste de tout les projets avec des <a></a> -->
                 </div>
@@ -31,18 +38,21 @@
     <!-- Fin barre de navigation -->
 
 
-    <div>
+
+    <div id="profil">
 
         <h1>Profil</h1>
         
-        <img src="/assets/images/photo_temporaire.png" alt="Photo d'identité" id="identité">
-        <div class="information">
-            <h2>Prénom</h2>
-            <p>Sylvain</p>
-        </div>
-        <div class="information">
-            <h2>Nom</h2>
-            <p>Batte</p>
+        <img src="/assets/images/photo_temporaire.png" alt="Photo d'identité" id="photo_identité">
+        <div>
+            <div class="information">
+                <h2>Prénom</h2>
+                <p>Sylvain</p>
+            </div>
+            <div class="information">
+                <h2>Nom</h2>
+                <p>Batte</p>
+            </div>
         </div>
 
 
