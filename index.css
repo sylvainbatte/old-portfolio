@@ -5,7 +5,7 @@
 }
 
 #profil {
-    margin: 200px 130px;
+    margin: 200px 220px;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 100px 500px;
@@ -19,6 +19,7 @@
     text-align: center;
     font-size: 50px;
     margin: 0px;
+    padding-left: 4%;
     padding-top: 15px;
 }
 
@@ -32,6 +33,7 @@
     transition: 0.2s ease-in-out;
 }
 */
+
 
 #profil div {
     grid-area: 2/2/3/3;
