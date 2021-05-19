@@ -56,18 +56,13 @@ nav ul li a:hover {
 }
 /* --------------------- */
 
-.information {
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+/* ------ FOOTER ------ */
+
+footer {
+    margin-top: 5000px;
+    height: 300px;
+    background-color: tomato;
 }
 
-.information p {
-    padding-left: 10px;
-}
-
-.zone {
-
-    height: 5000px;
-}
+/* -------------------- */
