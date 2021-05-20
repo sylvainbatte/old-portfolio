@@ -5,6 +5,9 @@ html {
 }
 
 /* ------ NAV BAR ------ */
+
+
+/* Ancienne nav bar
 nav {
     background-color: #E9EBF6;
     display: flex;
@@ -17,6 +20,7 @@ nav {
     transform: translateX(-50%);
     position: fixed;
 }
+
 
 nav ul {
     display: flex;
@@ -34,7 +38,6 @@ nav ul li a {
     padding-top: 11px;
     font-size: 22px;
     color: #15182F;
-    /*font-weight: bold; */
     display: block;
     width: 200%;
     height: 45px;
@@ -45,15 +48,85 @@ nav ul li a:hover {
     background-color: #575a6b;
     color: #d7d9ec;
     overflow: hidden;
-    transition: 0.2s ease-in;
+    transition: 0.2s ease;
 }
 
+nav ul li a:hover:before, nav ul li a:hover:after {
+    transform: scale(1);
+}
 
-
-.actual{
+.actual {
     background-color: #3A3C48;
     color: #E9EBF6;
 }
+
+*/
+
+
+nav
+{
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    width: 70%;
+    height: 7%;
+    display: table;
+    transform: translateX(-50%);
+    background-color: #E9EBF6;
+    border-radius: 10em;
+}
+
+nav a
+{
+    position: relative;
+    
+    display: table-cell;
+    text-align: center;
+    color: #15182F;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 20px;
+    transition: 0.2s ease color;
+    z-index: 2;
+}
+
+nav a:before, nav a:after
+{
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.2s ease transform;
+}
+
+nav a:before
+{
+    top: 0;
+    left: 10px;
+    width: 6px;
+    height: 6px;
+}
+
+nav a:after
+{
+    top: 5px;
+    left: 18px;
+    width: 4px;
+    height: 4px
+}
+
+
+nav a:hover
+{
+    color: #E9EBF6;
+}
+
+nav a:hover:before, nav a:hover:after
+{
+    transform: scale(1);
+}
+
+
+
 /* --------------------- */
 
 
