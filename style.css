@@ -10,63 +10,6 @@ body {
 
 /* ------ NAV BAR ------ */
 
-
-/* Ancienne nav bar
-nav {
-    background-color: #E9EBF6;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    width: 60%;
-    border-radius: 10em;
-    left: 50%;
-    top: 20px;
-    transform: translateX(-50%);
-    position: fixed;
-}
-
-
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 5px 0;
-    padding-left: 7px;
-    padding-right: 88px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    text-align: center;
-    padding-top: 11px;
-    font-size: 22px;
-    color: #15182F;
-    display: block;
-    width: 200%;
-    height: 45px;
-    border-radius: 10em;
-}
-
-nav ul li a:hover {
-    background-color: #575a6b;
-    color: #d7d9ec;
-    overflow: hidden;
-    transition: 0.2s ease;
-}
-
-nav ul li a:hover:before, nav ul li a:hover:after {
-    transform: scale(1);
-}
-
-.actual {
-    background-color: #3A3C48;
-    color: #E9EBF6;
-}
-
-*/
-
-
 nav {
     position: fixed;
     top: 50px;
@@ -77,6 +20,7 @@ nav {
     transform: translateX(-50%);
     background-color: #E9EBF6;
     border-radius: 10em;
+    z-index: 10;
 }
 
 nav a {
@@ -107,6 +51,45 @@ nav a:hover {
     margin-top: 200px;
     font-size: 45px;
     letter-spacing: 3px;
+}
+
+/* ----- Commun aux grid informations ----- */
+
+
+.gridInformation {
+    margin: 120px 230px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100px 500px;
+}
+
+.gridInformation h1 {
+    grid-area: 1/1/2/3;
+    color: #E9EBF6;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding-left: 4%;
+    padding-top: 15px;
+}
+
+.gridInformation img {
+    grid-area: 2/1/3/2;
+    z-index: -1;
+}
+
+
+
+.gridInformation p {
+    grid-area: 2/2/3/3;
+    background-color: #D4D7EE;
+    margin: 0px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
