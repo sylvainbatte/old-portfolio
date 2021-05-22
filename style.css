@@ -63,8 +63,7 @@ nav ul li a:hover:before, nav ul li a:hover:after {
 */
 
 
-nav
-{
+nav {
     position: fixed;
     top: 50px;
     left: 50%;
@@ -76,8 +75,7 @@ nav
     border-radius: 10em;
 }
 
-nav a
-{
+nav a {
     position: relative;
     
     display: table-cell;
@@ -90,44 +88,22 @@ nav a
     z-index: 2;
 }
 
-nav a:before, nav a:after
-{
-    position: absolute;
-    border-radius: 50%;
-    transform: scale(0);
-    transition: 0.2s ease transform;
-}
 
-nav a:before
-{
-    top: 0;
-    left: 10px;
-    width: 6px;
-    height: 6px;
-}
-
-nav a:after
-{
-    top: 5px;
-    left: 18px;
-    width: 4px;
-    height: 4px
-}
-
-
-nav a:hover
-{
+nav a:hover {
     color: #E9EBF6;
 }
 
-nav a:hover:before, nav a:hover:after
-{
-    transform: scale(1);
-}
-
-
 
 /* --------------------- */
+
+.titrePrincipal {
+    color: #E9EBF6;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
 
 
 /* ------ FOOTER ------ */
@@ -135,7 +111,8 @@ nav a:hover:before, nav a:hover:after
 footer {
     margin-top: 200px;
     height: 300px;
-    background-color: #15182F;
+    background-color: #000;
+
 }
 
 /* -------------------- */

@@ -34,3 +34,4 @@ nav a:nth-child(5):hover ~ #indicator
     transition: 0.2s ease left;
     z-index: 1;
 }
+/* ------------ */
