@@ -36,48 +36,6 @@ nav a:nth-child(5):hover ~ #indicator
 }
 
 
-/* ----- Commun aux projets ----- */
-
-
-#projetBang, #projetPortfolio, #projetHTML {
-    margin: 200px 220px;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 100px 500px;
-}
-
-#projetBang h1, #projetPortfolio h1, #projetHTML h1 {
-    grid-area: 1/1/2/3;
-    color: #E9EBF6;
-    text-align: center;
-    font-size: 50px;
-    margin: 0px;
-    padding-left: 4%;
-    padding-top: 15px;
-}
-
-#projetBang img, #projetPortfolio img, #projetHTML img {
-    grid-area: 2/1/3/2;
-}
-
-/*
-#profil img:hover {
-    filter: blur(2px);
-    transition: 0.2s ease-in-out;
-}
-*/
-
-#projetBang p, #projetPortfolio p, #projetHTML p {
-    grid-area: 2/2/3/3;
-    background-color: #D4D7EE;
-    margin: 0px;
-    padding: 0 20px;
-    text-align: center;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 /* ----- Projet BANG ----- */
 
