@@ -26,7 +26,7 @@ nav a:nth-child(5):hover ~ #indicator
 {
     position: absolute;
     left: 40%;
-    top: 5px;
+    top: 4px;
     width: 18%;
     height: 87%;
     background-color: #ADB2BB;
