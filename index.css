@@ -45,6 +45,7 @@ nav a:nth-child(5):hover ~ #indicator
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 100px 500px;
+    box-shadow: 0 0 20px #29305D;
 }
 
 #profil h1 {

@@ -35,6 +35,10 @@ nav a:nth-child(4):hover ~ #indicator
 }
 /* --------------- */
 
+#ProjetPortfolio {
+    box-shadow: 0 0 20px #29305D;
+}
+
 #ProjetPortfolio h1 {
     letter-spacing: 25px;
     background-color: #29305D;
