@@ -33,3 +33,94 @@ nav a:nth-child(5):hover ~ #indicator
     transition: 0.2s ease left;
     z-index: 1;
 }
+
+/* ----- Carte mentale ----- */
+
+#carteMentale {
+    margin: 100px 15%;
+    background: #AFBCCF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #29305D;
+}
+
+#carteMentale img {
+    width: 80%;
+}
+
+#carteMentale h1 {
+    color: #E9EBF6;
+    margin: 0px;
+    padding-top: 15px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 20px;
+    background: #29305D;
+}
+
+/* ----- Nuage de mots ----- */
+
+#nuageDeMots {
+    background: #404040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #333B75;
+    margin: 0 15%;
+}
+
+#nuageDeMots img {
+    height: 500px;
+}
+
+#nuageDeMots h1 {
+    color: #E9EBF6;
+    margin: 0px;
+    padding-top: 15px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 16px;
+    background: #333B75;
+}
+
+/* ----- Langues ----- */
+
+#langues{
+    background: #7794c0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 20px #3e4581;
+    margin: 100px 15%;
+}
+
+#langues h1 {
+    color: #E9EBF6;
+    margin: 0px;
+    padding-top: 15px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 12px;
+    background: #3e4581;
+}
+
+#langues h2 {
+    letter-spacing: 5px;
+    padding: 0px;
+    font-size: 25px;
+}
+
+
+.slider{
+    height: 100px;
+    width: 40%;
+}
