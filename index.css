@@ -99,8 +99,85 @@ nav a:nth-child(5):hover ~ #indicator
     font-size: 19px;
 }
 
-/* ------------------*/
+/* ----- Parcours ----- */
+
+#cv h2, #parcours h2 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #E9EBF6;
+    background-color: #29305D;
+}
+
+#parcours{
+    margin: 0px auto;
+    left: 39.5%;
+    display: block;
+    position: relative;
+    width: 100%;
+    color: #E9EBF6;
+    font-size: 20px;
+    top: -3px;
+}
+#parcours ul{
+    margin:20px 0;
+    padding:0;
+    display:inline-block;
+
+}
+#parcours ul li{
+    list-style: none;
+    margin:auto;
+    margin-left:200px;
+    min-height:50px;
+    /*background: rgba(255,255,0,0.1);*/
+    border-left:4px double #E9EBF6;
+    padding:0 0 50px 30px;
+    position:relative;
+}
+#parcours ul li:last-child{ 
+    border-left:0;
+}
+
+#parcours ul li::before{
+    position: absolute;
+    left: -21.5px;
+    top: -5px;
+    content: " ";
+    border: 10px solid rgba(255, 255, 255, 0.74);
+    border-radius: 500%;
+    background: #258CC7;
+    box-shadow: 0 0 10px #86D6FF;
+    height: 20px;
+    width: 20px;
+    transition: all 500ms ease-in-out;
+
+}
+#parcours ul li:hover::before{
+    border-color:  #258CC7;
+    box-shadow: 0 0 10px #258CC7;
+    transition: all 500ms ease-in-out;
+}
+
+ul li .item-detail{
+    color:#d4d6dd;
+    font-size:14px;
+}
+
+ul li .date{
+    color: #a7a7a7;
+    position: absolute;
+    width: 100px;
+    top: 6px;
+    left: -50%;
+    text-align: right;
+    font-size: 15px;
+}
+
+#dutInfo {
+    width: 230px;
+}
 
 
-
+/* ------------------ */
 
