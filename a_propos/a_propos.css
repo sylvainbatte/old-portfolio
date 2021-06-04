@@ -90,14 +90,44 @@ nav a:nth-child(5):hover ~ #indicator
     background: #333B75;
 }
 
+/* ----- Présentation perso ----- */
+
+#présentationPersonelle {
+    height: 390px;
+    box-shadow: 0 0 20px #3e4480;
+    width: 70%;
+    margin: 100px auto ;
+    background: #98a9c2;
+}
+
+#présentationPersonelle h1 {
+    color: #E9EBF6;
+    margin: 0px;
+    padding-top: 15px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    background: #3e4480;
+}
+
+#présentationPersonelle p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
 /* ----- Langues ----- */
 
 #langues{
-    background: #7794c0;
+    background: #778dad;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 0 20px #3e4581;
+    box-shadow: 0 0 20px #495196;
     margin: 100px 15%;
 }
 
@@ -110,7 +140,7 @@ nav a:nth-child(5):hover ~ #indicator
     text-align: center;
     font-size: 40px;
     letter-spacing: 12px;
-    background: #3e4581;
+    background: #495196;
 }
 
 #langues h2 {
@@ -123,4 +153,43 @@ nav a:nth-child(5):hover ~ #indicator
 .slider{
     height: 100px;
     width: 40%;
+}
+
+/* ------- PEC ------- */
+
+#pec{
+    height: 390px;
+    box-shadow: 0 0 20px #5e66b1;
+    width: 70%;
+    margin: 100px auto ;
+    text-align: center;
+    background: #98a9c2;
+}
+
+#pec h1 {
+    color: #E9EBF6;
+    margin: 0px;
+    padding-top: 15px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 12px;
+    background: #5e66b1;
+}
+
+#pec a {
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #E9EBF6;
+    background: #5e66b1;
+    border-radius: 10em;
+    padding: 5px 30px;
+    filter: blur(0.5px);
+    transition: 0.2s ease-in;
+}
+
+#pec a:hover {
+    filter: none;
+    background: #7d85ce;
 }

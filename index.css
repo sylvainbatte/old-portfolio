@@ -45,12 +45,12 @@ nav a:nth-child(5):hover ~ #indicator
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 100px 500px;
-    box-shadow: 0 0 20px #29305D;
+    box-shadow: 0 0 20px #1F2446;
 }
 
 #profil h1 {
     grid-area: 1/1/2/3;
-    background-color: #29305D;
+    background-color: #242b53;
     color: #E9EBF6;
     letter-spacing: 100px;
     text-align: center;
@@ -99,42 +99,92 @@ nav a:nth-child(5):hover ~ #indicator
     font-size: 19px;
 }
 
+/* ------- CV ------- */
+
+#cv {
+    width: 77%;
+    margin: 0px auto;
+    margin-bottom: 180px;
+    background-color: #1F2446;
+    box-shadow: 0 0 20px #1F2446;
+    height: 300px;
+}
+
+#cv h2 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 20px;
+    color: #E9EBF6;
+    background-color: #29305D;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    height: 80px;
+}
+
+#cv a {
+    background-color: #D4D7EE;
+    margin: 44%;
+    position: relative;
+    padding: 5px 60px;
+    top: 55px;
+    position: relative;
+    text-decoration: none;
+    color: #1F2446;
+    font-size: 40px;
+    border-radius: 10em;
+    transition: 0.5s ease-in-out background-color;
+}
+
+#cv a:hover {
+    background-color: #a0a2b3;
+    color: #2f386b;
+    transition: 0.5s ease-in-out all;
+}
+
+
 /* ----- Parcours ----- */
 
-#cv h2, #parcours h2 {
+#parcours{
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    width: 77%;
+    color: #E9EBF6;
+    font-size: 20px;
+}
+
+#parcours h2 {
     text-align: center;
     font-size: 40px;
     letter-spacing: 5px;
     color: #E9EBF6;
-    background-color: #29305D;
+    background-color: #333B75;
+    box-shadow: 0 0 20px #333B75;
+    z-index: -1;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    height: 80px;
 }
 
-#parcours{
-    margin: 0px auto;
-    left: 39.5%;
-    display: block;
-    position: relative;
-    width: 100%;
-    color: #E9EBF6;
-    font-size: 20px;
-    top: -3px;
-}
 #parcours ul{
-    margin:20px 0;
-    padding:0;
+    margin: 0px;
+    padding: 40px 0 0 0;
     display:inline-block;
-
+    width: 100%;
+    z-index: 1;
+    background-color: #1F2446;
+    box-shadow: 0 0 20px #333B75;
 }
+
 #parcours ul li{
     list-style: none;
-    margin:auto;
-    margin-left:200px;
-    min-height:50px;
-    /*background: rgba(255,255,0,0.1);*/
+    margin-left: 50%;
+    height: 80px;
     border-left:4px double #E9EBF6;
     padding:0 0 50px 30px;
     position:relative;
 }
+
 #parcours ul li:last-child{ 
     border-left:0;
 }
@@ -142,9 +192,8 @@ nav a:nth-child(5):hover ~ #indicator
 #parcours ul li::before{
     position: absolute;
     left: -21.5px;
-    top: -5px;
     content: " ";
-    border: 10px solid rgba(255, 255, 255, 0.74);
+    border: 10px solid #a4c7f5;
     border-radius: 500%;
     background: #258CC7;
     box-shadow: 0 0 10px #86D6FF;
@@ -169,7 +218,7 @@ ul li .date{
     position: absolute;
     width: 100px;
     top: 6px;
-    left: -50%;
+    left: -140px;
     text-align: right;
     font-size: 15px;
 }

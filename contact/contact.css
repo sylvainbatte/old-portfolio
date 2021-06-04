@@ -1,0 +1,117 @@
+/* ------ Barre de nav ----- */
+
+nav a:nth-child(2):hover ~ #indicator
+{
+    left: 20%;
+}
+
+nav a:nth-child(3):hover ~ #indicator
+{
+    left: 40%;
+}
+
+nav a:nth-child(4):hover ~ #indicator
+{
+    left: 59%;
+}
+
+nav a:nth-child(5):hover ~ #indicator
+{
+    left: 81.5%;
+}
+
+#indicator
+{
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    width: 18%;
+    height: 87%;
+    background-color: #ADB2BB;
+    border-radius: 10em;
+    transition: 0.2s ease left;
+    z-index: 1;
+}
+
+/* ------------------ */
+
+.contactDiv {
+    height: 180px;
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+    background-color: #D4D7EE;
+}
+
+.contactDiv a{
+    text-decoration: none;
+    color: #E9EBF6;
+    background: #1F2446;
+    padding: 7px 40px;
+    border-radius: 10em;
+    width: 200px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactDiv a:hover{
+    background: #393e61;
+    transition: all 0.3s ease-in-out;
+}
+
+p {
+    font-size: 18px;
+}
+
+span {
+    color: #3E478B;
+}
+
+#coordonees {
+    box-shadow: 0 0 20px #1F2446;
+}
+
+#coordonees h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    color: #E9EBF6;
+    background-color: #1F2446;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    height: 60px;
+}
+
+
+#github h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 31px;
+    color: #E9EBF6;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    height: 60px;
+    background-color: #29305D;
+}
+
+#github {
+    box-shadow: 0 0 20px #29305D;
+}
+
+#linkedin h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 23px;
+    color: #E9EBF6;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    height: 60px;
+    background-color: #333B75;
+}
+
+#linkedin {
+    box-shadow: 0 0 20px #333B75;
+}
+
+footer {
+    margin-top: 100px;
+}
