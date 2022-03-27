@@ -34,6 +34,34 @@ nav a:nth-child(5):hover ~ #indicator
     z-index: 1;
 }
 
+/* ----- CV Video----- */
+
+#cvVideo {
+    margin: 100px 15%;
+    background: #AFBCCF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #29305D;
+}
+
+#cvVideo video {
+    width: 100%;
+}
+
+#cvVideo h1 {
+    color: #E9EBF6;
+    margin: 0px;
+    padding-top: 15px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 20px;
+    background: #29305D;
+}
+
 /* ----- Carte mentale ----- */
 
 #carteMentale {
