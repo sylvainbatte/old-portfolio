@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio Sylvain BATTE</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="index.css" rel="stylesheet" type="text/css">
-    <link href=" assets/images/favicon.ico" rel="icon">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="assets/images/favicon.ico" rel="icon">
     <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
 
 </head>
@@ -24,23 +24,21 @@
     </div> 
     <!-- Barre de nav-->
     <nav>
-        <a href="/portfolio/index.html">Accueil</a>
-        <a href="/portfolio/a_propos/a_propos.html">A propos</a>
-        <a href="/portfolio/projets/projets.html">Projets</a>
-        <a href="/portfolio/activites/activites.html">Activités</a>
-        <a href="/portfolio/en_cours/en_cours.html"> En cours</a>
+        <a href="/">Accueil</a>
+        <a href="/projets/">Projets</a>
+        <a href="/activites/">Activités</a>
+        <a href="/contact/">Contact</a>
         <div id="indicator"></div>
     </nav>
     
-    <!-- ------------ -->
 
 
 
-    <div id="profil">
+    <div id="profil" class="sectionInformations">
 
         <h1>PROFIL</h1>
         
-        <img src="/portfolio/assets/images/portrait.jpg" alt="Photo d'identité" id="photo_identité">
+        <img src="/assets/images/portrait.jpg" alt="Photo d'identité" id="photo_identité">
         <div>
             <div class="information">
                 <h2>Prénom</h2>
@@ -52,7 +50,7 @@
             </div>
             <div class="information">
                 <h2>Age</h2>
-                <p>17 ans</p>
+                <p>18 ans</p>
             </div>
             <div class="information">
                 <h2>Ecole</h2>
@@ -62,12 +60,12 @@
 
     </div>
 
-    <div id="cv">
-        <h2>ACCEDEZ A MON CV</h2>
-        <a href="/portfolio/assets/pdfs/cv.pdf" onclick="window.open(this.href); return false;">CV</a>
+    <div id="cv" class="sectionInformations">
+        <h2>MES INFORMATIONS</h2>
+        <a href="/assets/pdfs/cv.pdf" onclick="window.open(this.href); return false;">CV</a>
     </div>
 
-    <div id="parcours">
+    <div id="parcours" class="sectionInformations">
 
         <h2>MON PARCOURS UNIVERSITAIRE</h2>
         
@@ -91,28 +89,19 @@
                   2020-2022
                 </div>
                 <div id="dutInfo">DUT Informatique</div>
+                <div class="item-detail">Acquis</div>
+              </li>
+              <li class="tl-item" ng-repeat="item in retailer_history">
+                <div class="date">
+                  2022-2023
+                </div>
+                <div id="dutInfo">Licence Pro APIDAE</div>
                 <div class="item-detail">En cours</div>
               </li>
         </ul>
     </div>
 
-
-
-    <!-- {COMMUN} -->
-    <footer>
-
-
-        <!-- Liste bas de page -->
-        <a href="/portfolio/contact/contact.html">Contact</a>
-        <a href="/portfolio/404.html">Erreur 404</a>
-
-        <p>© 2021 Sylvain BATTE</p>
-
-
-    </footer>
-    <!-- Fin Footer -->
-
-    <script src=" app.js"></script>
+    <script defer src="app.js"></script>
 
 </body>
 

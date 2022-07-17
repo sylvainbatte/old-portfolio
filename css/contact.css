@@ -1,33 +1,28 @@
 /* ------ Barre de nav ----- */
 
+nav a:nth-child(1):hover ~ #indicator
+{
+    left: 0.5%;
+}
+
 nav a:nth-child(2):hover ~ #indicator
 {
-    left: 20%;
+    left: 24%;
 }
 
 nav a:nth-child(3):hover ~ #indicator
 {
-    left: 40%;
-}
-
-nav a:nth-child(4):hover ~ #indicator
-{
-    left: 59%;
-}
-
-nav a:nth-child(5):hover ~ #indicator
-{
-    left: 81.5%;
+    left: 49%;
 }
 
 #indicator
 {
     position: absolute;
-    left: 5px;
+    left: 75.5%;
     top: 4px;
-    width: 18%;
+    width: 24%;
     height: 87%;
-    background-color: #ADB2BB;
+    background-color: #b8caec;
     border-radius: 10em;
     transition: 0.2s ease left;
     z-index: 1;
