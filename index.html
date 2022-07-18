@@ -32,9 +32,72 @@
     </nav>
     
 
+    <div id="divAccueil">
+
+      <div class="divInformation" id="profil">
+        <h1>Profil</h1>
+        <div>
+          <img src="assets/images/portrait.jpg" alt="Photo Sylvain Batte">
+          <div id="profilInformations">
+            <div class="information">
+              <h2>Prénom</h2>
+              <p>Sylvain</p>
+            </div>
+            <div class="information">
+              <h2>Nom</h2>
+              <p>Batte</p>
+            </div>
+            <div class="information">
+              <h2>Age</h2>
+              <p>18 ans</p>
+            </div>
+            <div class="information">
+              <h2>Ecole</h2>
+              <p>IUT Montpellier/Sète</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divInformation activable" id="parcours">
+        <h1>MON PARCOURS UNIVERSITAIRE</h1>
+        <ul>
+            <li class="tl-item" ng-repeat="item in retailer_history">
+                <div class="date">
+                  2016-2017
+                </div>
+                <div>Brevet des collèges</div>
+                <div class="item-detail">Mention très bien</div>
+              </li>
+              <li class="tl-item" ng-repeat="item in retailer_history">
+                <div class="date">
+                  2019-2020
+                </div>
+                <div>Baccalauréat</div>
+                <div class="item-detail">Mention assez bien</div>
+              </li>
+              <li class="tl-item" ng-repeat="item in retailer_history">
+                <div class="date">
+                  2020-2022
+                </div>
+                <div id="dutInfo">DUT Informatique</div>
+                <div class="item-detail">Acquis</div>
+              </li>
+              <li class="tl-item" ng-repeat="item in retailer_history">
+                <div class="date">
+                  2022-2023
+                </div>
+                <div id="dutInfo">Licence Pro APIDAE</div>
+                <div class="item-detail">En cours</div>
+              </li>
+        </ul>
+      </div>
 
 
-    <div id="profil" class="sectionInformations">
+    </div>
+
+
+    <!--<div id="profil" class="sectionInformations">
 
         <h1>PROFIL</h1>
         
@@ -99,7 +162,7 @@
                 <div class="item-detail">En cours</div>
               </li>
         </ul>
-    </div>
+    </div>-->
 
     <script defer src="app.js"></script>
 

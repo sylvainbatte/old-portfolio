@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
 // ------- ANIMATION --------
 
 window.addEventListener('scroll', () => { 
-    var reveals = document.querySelectorAll(".projet");
+    var reveals = document.querySelectorAll(".activable");
 
     for (var i = 0; i < reveals.length; i++) {
         var windowHeight = window.innerHeight;
@@ -21,6 +21,7 @@ window.addEventListener('scroll', () => {
 
         if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("actif");
+        reveals[i].classList.remove("activable");
         }
     }
 });
